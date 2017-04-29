@@ -20,8 +20,8 @@ const int button2 = A2;
 // Wailing siren
 float wailingSirenFreq = freq;
 float wailingSirenTimeSpeed = timeSpeed;
-const int wailingStartHz = 300;
-const int wailingEndHz = 3200;
+const int wailingStartHz = 348;
+const int wailingEndHz = 7152;
 int wailingStart = wailingStartHz;
 int wailingEnd = wailingEndHz;
 boolean wailingUp = true;
@@ -78,7 +78,7 @@ void loop() {
   }
 
   lcd.setCursor(0, 0);
-  lcd.print("MASEGO SOUNDWORKS");
+  lcd.print("RK9 Siren thx to MASEGO SOUNDWORKS");
   lcd.setCursor(0, 1);
   lcd.print("                ");
 }
